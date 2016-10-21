@@ -14,17 +14,16 @@ import java.util.Scanner;
 
 public class ex03_105021033 {
 
-
-		public static void main(String[] args){
-	    	Scanner scn = new Scanner(System.in);
-	    	System.out.println("請輸入一整數");
-	    	int n = scn.nextInt();
-	        for (int a = 0;a<n;a++) { 
-	            for(int b = 0;b<=a;b++) { 
-	                System.out.print("*");
-	            }
-	            System.out.println();
-	        }
-	    }
-	   
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("請輸入一整數");
+		int n = scn.nextInt();
+		for (int a = 0; a < n; a++) {
+			for (int b = 0; b <= a; b++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
+
+}

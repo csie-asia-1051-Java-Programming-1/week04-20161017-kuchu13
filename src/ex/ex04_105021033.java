@@ -25,21 +25,21 @@ import java.util.Scanner;
  */
 public class ex04_105021033 {
 
-	public static void main(String[] args){
-    	Scanner scn = new Scanner(System.in);
-    	
-    	System.out.println("請輸入一符號");
-    	char c =scn.next().charAt(0);
-    	
-    	System.out.println("請輸入一整數");
-    	int n = scn.nextInt();
-    	
-    	 for (int a = 0;a<n;a++) { 
-	            for(int b = n;b>a;b--) { 
-                System.out.print(c);
-            }
-            System.out.println();
-        }
-    }
-   
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+
+		System.out.println("請輸入一符號");
+		char c = scn.next().charAt(0);
+
+		System.out.println("請輸入一整數");
+		int n = scn.nextInt();
+
+		for (int a = 0; a < n; a++) {
+			for (int b = n; b > a; b--) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+	}
+
 }
