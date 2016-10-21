@@ -21,10 +21,12 @@ public class ex02_105021033 {
 			int b = scn.nextInt();
 			for (int i = 1; i <= a; i++) {
 				for (int j = 1; j <= b; j++) {
-					System.out.println(a * b);
+					System.out.print(i * j+" ");
 				}
 				System.out.println();
 			}
+			System.out.println("請輸入是否繼續?(Y/N)");
+
 			c = scn.next().charAt(0);
 			if (c == 'N' || c == 'n') {
 				System.out.println("結束");
